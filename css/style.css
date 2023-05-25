@@ -1,0 +1,23 @@
+:root{
+    font-size: 16px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* Añadimos la imagen de fondo en el body */
+    background-image: url(../img/fondo.jpg);
+    /* Para que no se repita de imagen bucle */
+    background-repeat: no-repeat;
+    /* Escala la imagen a las dimensiones que hay en la pantalla */
+    background-size: cover;
+}
+
+.contenedor{
+    height: auto;
+    width: auto;
+}
