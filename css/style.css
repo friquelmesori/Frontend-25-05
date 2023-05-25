@@ -21,3 +21,48 @@ body{
     height: auto;
     width: auto;
 }
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    /* Sirve para alinear los elementos uno al lado del otro en un orden */
+    display: flex;
+    /* Espacio que dejamos con respecto al elemento que tenemos arriba */
+    padding-top: 0.5em;
+    /* Se alinean todos los elementos div hijos que tenemos dentro de esta clase */
+    align-items: center;
+    /* Tamaño de la letra (se le da en %, px, o valores predetermiandos) en este caso x-large*/
+    font-size: x-large;
+}
+
+.opciones_menu{
+    display: flex;
+    padding-top: 1em;
+    padding-left: 1em;
+    
+}
+
+.idiomas{
+    display: flex;
+    padding-top: 1em;
+    padding-left: 5em;
+}
+
+.inicio_sesion{
+    display: flex;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+a{
+    display: flex;
+    padding: 5px;
+    /* Tipografia de la letra */
+    font: menu;
+    /* Tamaño de la letra */
+    font-size: medium;
+}
